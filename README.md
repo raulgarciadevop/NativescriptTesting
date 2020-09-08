@@ -1,0 +1,2 @@
+# NativescriptTesting
+ Nativescript component testing
