@@ -1,0 +1,16 @@
+.sv{
+    width: 100%;
+    height: 100%;
+}
+
+.list-item{
+    height: 80;
+    border-bottom-color: gray;
+    border-bottom-width: 1;
+}
+
+.float-btn-container{
+    margin-top: 90%;
+    margin-left: 80%;
+
+}

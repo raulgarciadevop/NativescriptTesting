@@ -1,0 +1,14 @@
+<AbsoluteLayout>
+    <ScrollView class="sv">
+        <StackLayout>
+            <StackLayout *ngFor="let item of arr" class="list-item">
+                <Label [text]="item"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+    <StackLayout class="float-btn-container">
+        <float-btn (tap)="onTap($event)"></float-btn>
+    </StackLayout>
+    
+</AbsoluteLayout>
